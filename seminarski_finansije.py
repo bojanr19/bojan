@@ -882,6 +882,37 @@ with tab2:
             """,
             unsafe_allow_html=True,
         )
+    st.markdown(
+        """
+        <div class="info-box">
+        <h4>📉 Zašto je kriva prinosa bila invertovana u drugom kvartalu 2023?</h4>
+
+        <ol>
+            <li>
+            <b>Globalni kontekst: ECB agresivno podiže kamate</b><br>
+            Najvažniji faktor je monetarna politika ECB-a. Bosna i Hercegovina koristi valutni odbor vezan za euro, što znači da kamatne stope na eurozone direktno utiču na domaće tržište.
+            ECB je u periodu od jula 2022. do septembra 2023. povisio kamatne stope za rekordnih 450 baznih bodova — historijsko pooštravanje monetarne politike.
+            Početkom 2023. ukupna inflacija u eurozoni i dalje je bila visoka (8,6% u januaru), pa su kamate dodatno povećavane.
+            Ovo je direktno podiglo kratkoročne stope zaduživanja.
+            </li>
+            <li>
+            <b>Lokalni faktor: RS i pritisak duga</b><br>
+            U junu 2023. Vlada RS emitovala je obveznice od 210 miliona KM uz kamatu od 6,1% — najvišu u istoriji RS.
+            Istovremeno, Federacija BiH se zaduživala po oko 3,8%.
+            Razlog je veliki dug (preko 5 milijardi KM) i potreba refinansiranja više od milijardu KM obaveza u 2023.
+            </li>
+            <li>
+            <b>Sankcije i otežan pristup tržištima</b><br>
+            Sankcije SAD iz 2022. otežale su pristup međunarodnim tržištima kapitala.
+            RS se više oslanjala na domaće i regionalne berze, gdje su uslovi nepovoljniji.
+            Investitori su zato tražili veće kamate zbog većeg rizika.
+            </li>
+        </ol>
+
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 # ============================================================
 # TAB 3: TABELA PODATAKA
