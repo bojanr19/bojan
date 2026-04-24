@@ -189,7 +189,7 @@ div[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] button:
 
 /* Kada je fajl učitan — prikaži naziv fajla pored dugmeta */
 div[data-testid="stFileUploader"] [data-testid="stFileUploaderDeleteBtn"] {
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 div[data-testid="stFileUploader"] small {
     color: #AACCEE !important;
