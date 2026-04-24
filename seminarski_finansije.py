@@ -170,14 +170,19 @@ div[data-testid="stFileUploader"] button {
 
 /* Zamijeni tekst dugmeta sa "Odaberi datoteku" */
 div[data-testid="stFileUploader"] button span {
-    font-size: none !important;
+    font-size: 0 !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    display: inline-block !important;
 }
 
 div[data-testid="stFileUploader"] button::after {
     content: "Odaberi datoteku";
-    font-size: 0.95rem;
-    color: #FFFFFF;
-    font-weight: 600;
+    font-size: 0.95rem !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    visibility: visible !important;
 }
 
 /* Kada je fajl učitan — prikaži naziv fajla pored dugmeta */
