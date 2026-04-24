@@ -182,7 +182,7 @@ div[data-testid="stFileUploader"] button::after,
 div[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] button::after {
     content: "Odaberi datoteku";
     font-size: 0.95rem !important;
-    color: #FFFFFF !important;
+    color: #000000 !important;
     font-weight: 600 !important;
     visibility: visible !important;
 }
