@@ -156,7 +156,8 @@ div[data-testid="stFileUploader"] {
 }
 
 /* Dugme u obliku pilule — plavo */
-div[data-testid="stFileUploader"] button {
+div[data-testid="stFileUploader"] button,
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] button {
     background-color: #3A5A7C !important;
     color: #FFFFFF !important;
     border: 3px solid #FFFFFF !important;
@@ -168,8 +169,8 @@ div[data-testid="stFileUploader"] button {
     white-space: nowrap !important;
 }
 
-/* Zamijeni tekst dugmeta sa "Odaberi datoteku" */
-div[data-testid="stFileUploader"] button span {
+div[data-testid="stFileUploader"] button span,
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] button span {
     font-size: 0 !important;
     visibility: hidden !important;
     width: 0 !important;
@@ -177,7 +178,8 @@ div[data-testid="stFileUploader"] button span {
     display: inline-block !important;
 }
 
-div[data-testid="stFileUploader"] button::after {
+div[data-testid="stFileUploader"] button::after,
+div[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] button::after {
     content: "Odaberi datoteku";
     font-size: 0.95rem !important;
     color: #FFFFFF !important;
