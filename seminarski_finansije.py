@@ -170,10 +170,10 @@ div[data-testid="stFileUploader"] button {
 
 /* Zamijeni tekst dugmeta sa "Odaberi datoteku" */
 div[data-testid="stFileUploader"] button span {
-    font-size: 0 !important;
+    font-size: none !important;
 }
 
-div[data-testid="stFileUploader"] button span::after {
+div[data-testid="stFileUploader"] button::after {
     content: "Odaberi datoteku";
     font-size: 0.95rem;
     color: #FFFFFF;
