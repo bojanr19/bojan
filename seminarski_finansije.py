@@ -969,7 +969,7 @@ with tab3:
             return "background-color: rgba(27, 58, 92, 0.08); color: #1B3A5C; font-weight: 600;"
 
     # Stilizovana tabela
-    styled_df = df_prikaz.style.applymap(
+    styled_df = df_prikaz.style.map(
         oboji_spread, subset=["Spread (%)"]
     )
 
