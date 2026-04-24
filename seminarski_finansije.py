@@ -145,9 +145,7 @@ div[data-testid="stFileUploader"] section {
     background: transparent !important;
     border: none !important;
 }
-div[data-testid="stFileUploader"] section > div {
-    display: none !important;
-}
+
 div[data-testid="stFileUploader"] section > div:has(button) {
     display: flex !important;
 }
@@ -170,39 +168,16 @@ div[data-testid="stFileUploader"] button {
     white-space: nowrap !important;
 }
 
-/* Sakrij default uploader */
-div[data-testid="stFileUploader"] section {
-    display: none !important;
+/* Zamijeni tekst dugmeta sa "Odaberi datoteku" */
+div[data-testid="stFileUploader"] button span {
+    font-size: 0 !important;
 }
 
-/* Centriranje */
-div[data-testid="stFileUploader"] {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-/* Custom dugme */
-div[data-testid="stFileUploader"]::before {
-    content: "📂 Odaberi datoteku";
-    display: inline-block;
-    background-color: #3A5A7C;
-    color: white;
-    padding: 0.6rem 1.8rem;
-    border-radius: 50px;
-    font-weight: 600;
-    cursor: pointer;
-    border: 3px solid white;
+div[data-testid="stFileUploader"] button span::after {
+    content: "Odaberi datoteku";
     font-size: 0.95rem;
-}
-
-/* Klik */
-div[data-testid="stFileUploader"] input {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 600;
 }
 
 /* Kada je fajl učitan — prikaži naziv fajla pored dugmeta */
