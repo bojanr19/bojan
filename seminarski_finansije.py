@@ -293,7 +293,7 @@ def ucitaj_podatke(fajl) -> pd.DataFrame:
     return df
 
 
-def kreiraj_primer_podataka() -> pd.DataFrame:
+def kreiraj_primjer_podataka() -> pd.DataFrame:
     """Kreira primer podataka za demonstraciju."""
     datumi = pd.date_range(start="2000-01-01", end="2025-12-01", freq="MS")
     np.random.seed(42)
@@ -337,7 +337,7 @@ BOJA_MREZA = "#E8EEF4"
 
 
 def stilizuj_grafikon(fig, naslov="", visina=500):
-    """Primenjuje zajednički stil na Plotly grafikon."""
+    """Primjenjuje zajednički stil na Plotly grafikon."""
     fig.update_layout(
     title=dict(
         text=naslov,
@@ -452,7 +452,7 @@ st.markdown(
 if ucitani_fajl is not None:
     df = ucitaj_podatke(ucitani_fajl)
 else:
-    df = kreiraj_primer_podataka()
+    df = kreiraj_primjer_podataka()
     st.info(
         "ℹ️ Prikazani su demonstracioni podaci. "
         "Učitajte sopstveni CSV ili XLSX fajl putem bočne trake za analizu stvarnih podataka."
